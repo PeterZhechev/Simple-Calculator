@@ -46,7 +46,7 @@ body {
     display: flex;
     justify-content: space-around;
 
-        box-shadow: .1em -.1em 0 #3c2599,
+    box-shadow: .1em -.1em 0 #3c2599,
         .2em -.2em 0 #333,
         -.1em .1em 0 #333,
         -.2em .2em 0 #333,
