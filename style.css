@@ -2,27 +2,64 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-weight: bold;
 }
 
 body {
-    background-color: rgb(128, 128, 128);
+    background-color: rgb(91, 91, 91);
 }
 
 .button {
-    margin: 5px 5px 5px 5px ;
-    padding: 20px 20px 20px 20px ;
-    font-size: 35px;
+    margin: 3px 3px 3px 3px;
+    padding: 15px 15px 15px 15px;
+    font-size: 27px;
     border-radius: 12px;
+    width: 50%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    box-shadow: .1em -.1em 0 #3c2599,
+        .2em -.2em 0 #333,
+        -.1em .1em 0 #333,
+        -.2em .2em 0 #333,
+        -.3em .3em 0 #333,
+        inset -.1em -.1em 2em #FFF,
+        -.1em -.1em 2em #5b5b5b;
+    border-top: 3px solid #5b5b5b;
+    border-right: 3px solid #5b5b5b;
+}
+
+#c {
+    color: rgb(255, 0, 0);
 }
 
 #display {
-    margin: 5px 5px 5px 5px ;
-    padding: 20px 20px 20px 20px ;
-    font-size: 35px;
+    margin: 4px 4px 4px 4px;
+    padding: 10px 10px 10px 10px;
+    font-size: 27px;
     border-radius: 12px;
+    width: auto;
+    margin: auto;
+    width: 17%;
+    padding-top: 15px;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-around;
+
+        box-shadow: .1em -.1em 0 #3c2599,
+        .2em -.2em 0 #333,
+        -.1em .1em 0 #333,
+        -.2em .2em 0 #333,
+        -.3em .3em 0 #333,
+        inset -.1em -.1em 2em #FFF,
+        -.1em -.1em 2em #5b5b5b;
+    border-top: 3px solid #5b5b5b;
+    border-right: 3px solid #5b5b5b;
 }
 
-main {
-    justify-content: center;
-    align-items: center;
+.row {
+    margin: auto;
+    width: 17%;
+    display: flex;
+    justify-content: space-around;
 }
