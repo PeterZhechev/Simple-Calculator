@@ -61,6 +61,10 @@ function calculate() {
                 break;
         }
 
+        if (document.getElementById('display').value === 'NaN') {
+            document.getElementById('display').value = 'Not a Number!';
+        }
+        
         operator = '';
     });
 }
